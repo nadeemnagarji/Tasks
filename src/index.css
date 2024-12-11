@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,html,#root{
+  @apply bg-black text-white box-border
+  w-screen h-screen overflow-x-hidden
+  overflow-y-auto flex flex-col 
+
+  
+}
